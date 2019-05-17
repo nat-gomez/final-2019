@@ -21,6 +21,10 @@
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+  <!-- Mapbox -->
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/maps.css?v=1.0">
+
 </head>
 
 <body id="page-top">
@@ -214,7 +218,7 @@
     <div id="mapContainer">
       <div id="sidebar">
         <div class="info-box">
-          <h3>Queensboro Hill Land Use Map</h3>
+          <h3>Flushing Land Use Map</h3>
           <span id="address">Move the mouse over a lot for address and land use info</span><br/>
           <span id="landuse"></span>
         </div>
@@ -225,7 +229,7 @@
           <button class="flyto" data-neighborhood="morningside-heights">Morningside Heights</button>
           <button class="flyto" data-neighborhood="fidi">FiDi</button>
           <hr/>
-          <button class="flyto" data-neighborhood="greenpoint">Back to Greenpoint</button>
+          <button class="flyto" data-neighborhood="flushing">Back to Flushing</button>
         </div>
         <div class="info-box legend">
           <h3>Legend</h3>
@@ -233,11 +237,9 @@
         </div>
       </div>
     </div>
-  </section>
+      </section>
 
-
-
-  <!-- below is the good code for the google map
+  <!-- below is the good code for the google MAP
   <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
@@ -246,9 +248,6 @@
     </small>
   </section>
   -->
-
-
-
 
     <!-- Call to Action I changed this to put it below the map -->
     <section class="content-section bg-primary text-white">
@@ -391,7 +390,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+  <script src="js/maps.js"></script>
 
 
 </body>
