@@ -36,22 +36,25 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="js-scroll-trigger" href="#page-top">Developing the Waterfront</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#today">Flushing Creek Today</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
+        <a class="js-scroll-trigger" href="#plan">Flushing Waterfront Revitalization Plan</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        <a class="js-scroll-trigger" href="#objectives">Objectives</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
+        <a class="js-scroll-trigger" href="#map-flushing">Flushing Landuse Map</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#recent-changes">Recent Chages</a>
       </li>
     </ul>
   </nav>
@@ -71,7 +74,7 @@
   <!-- About -->
   <!-- Services -->
   <!-- services=global definitions -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="today">
     <div class="container">
       <div class="content-section-heading">
         <div class="col-lg-10 mx-auto">
@@ -83,7 +86,7 @@
   </section>
 
   <!-- About -->
-  <section class="content-section bg-light" id="about">
+  <section class="content-section bg-light" id="plan">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
@@ -95,8 +98,8 @@
             Simultaneously, DCP started a comprehensive neighborhood plannning process for Flushing West, in support of Mayor DeBlasio's Housing New York Plan which seeks to create new affordable housing opportunties.
             Since mid 2016, the Flushing West Neighborhood Planning Study was put on indefinite hold due to community concern over the direction of the study.
             However, in 2017 DCP completed the final draft of the Flushing Waterfront Revitalization BOA Nomination report and FWPCLDC submitted it to the NYS Department of State.
-            From there, the state selects which plans to fund through the BOA program which gives localities tools to fast-track revitalization efforts with state funding.
-            In 2018 Governor Cuomo designated Flushing as a Brownfield Opportunity Area.
+            From there, the state selects which plans to fund through the BOA program which gives localities tools to fast-track revitalization efforts.
+            In 2018 the Flushing Waterfront BOA recieved offical Brownfield Opportunity Area Designation from the Governor's office.
             <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Flushing Creek Today</a> -->
         </div>
       </div>
@@ -105,13 +108,14 @@
 
   <!-- Services -->
   <!-- services=global definitions -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="objectives">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Proposed Objectives</h3>
+        <!-- <h3 class="text-secondary mb-0">anything to write</h3> -->
         <h2 >Flushing Waterfront Revitalization Plan</h2>
+        <h3 class="text-secondary mb-3">click an objective </h3>
       </div>
-      <p> Click an Objective</p>
+      <!-- <p>anything to write</p> -->
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -171,8 +175,25 @@
     </div>
   </section> -->
 
+  <!-- Map -->
+  <section id="map-flushing" class="map">
+    <div id="mapContainer">
+      <div id="sidebar">
+        <div class="info-box">
+          <h3>Flushing Land Use Map</h3>
+          <span id="address">Move the mouse over a lot for address and land use info</span><br/>
+          <span id="landuse"></span>
+        </div>
+        <div class="info-box legend">
+          <h3>Legend</h3>
+          <!-- We'll programmatically make the legend here -->
+        </div>
+      </div>
+    </div>
+      </section>
+
   <!-- Portfolio that i will make into pictures of different type of urban settlements -->
-  <section class="content-section" id="portfolio">
+  <section class="content-section" id="recent-changes">
     <div class="container">
       <div class="content-section-heading text-center">
         <h3 class="text-secondary mb-0">Portfolio</h3>
@@ -227,22 +248,6 @@
     </div>
   </section>
 
-  <!-- Map -->
-  <section id="contact" class="map">
-    <div id="mapContainer">
-      <div id="sidebar">
-        <div class="info-box">
-          <h3>Flushing Land Use Map</h3>
-          <span id="address">Move the mouse over a lot for address and land use info</span><br/>
-          <span id="landuse"></span>
-        </div>
-        <div class="info-box legend">
-          <h3>Legend</h3>
-          <!-- We'll programmatically make the legend here -->
-        </div>
-      </div>
-    </div>
-      </section>
 
   <!-- below is the good code for the google MAP-->
   <!-- <section id="contact" class="map">
