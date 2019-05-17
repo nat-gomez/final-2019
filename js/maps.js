@@ -5,8 +5,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmF0LWdvbWV6IiwiYSI6ImNqdW4yYjI0ZzJvNzgzeW8ya
 var map = new mapboxgl.Map({
   container: 'mapContainer',
   style: 'mapbox://styles/mapbox/light-v9',
-  center: [-73.829498,40.740982],
-  zoom: 14,
+  center: [-73.834305,40.757725],
+  zoom: 13,
 });
 
 // Add zoom and rotation controls to the map.
@@ -98,13 +98,6 @@ for (var i=1; i<12; i++) {
   `)
 }
 
-// a little object for looking up neighborhood center points
-var neighborHoodLookup = {
-  'park-slope': [-73.979702, 40.671199],
-  'morningside-heights': [-73.962750, 40.809099],
-  'fidi': [-74.007468, 40.710800],
-  'flushing': [-73.814049, 40.729503],
-}
 
 
 // we can't add our own sources and layers until the base style is finished loading
