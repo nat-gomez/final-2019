@@ -98,8 +98,6 @@ for (var i=1; i<12; i++) {
   `)
 }
 
-
-
 // we can't add our own sources and layers until the base style is finished loading
 map.on('style.load', function() {
   // add a button click listener that will control the map
